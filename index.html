@@ -139,60 +139,6 @@
         </div>
 
       </div>
-
-       
-            
-
-   <!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>SDC India</title>
-<style>
-  (same styles from previous response)
-</style>
-</head>
-<body>
-<header class="header">
-  </header>
-<main class="main-content">
-  <div class="counter-container" id="counter1">
-    <h2>0</h2>  <p>Students Impacted</p>
-  </div>
-  <div class="counter-container" id="counter2">
-    <h2>0</h2>  <p>Events Conducted</p>
-  </div>
-  
-  <script>
-    // Get references to the h2 elements
-    const counter1 = document.getElementById("counter1").querySelector("h2");
-    const counter2 = document.getElementById("counter2").querySelector("h2");
-
-    // Define a function to increment and update the count
-    function incrementCount(element, targetValue) {
-      let count = 0;  // Start at 0
-      const interval = setInterval(() => {
-        count++;
-        element.textContent = count;
-        if (count === targetValue) {
-          clearInterval(interval);  // Stop when reaching target
-        }
-      }, 10); // Adjust interval for counting speed (in milliseconds)
-    }
-
-    // Call the function to start counting
-    incrementCount(counter1, 4000);
-    incrementCount(counter2, 20);
-  </script>
-</main>
-</body>
-</html>
-
-
-
-   
-    <!-- About Section -->
     <section id="about" class="about section">
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
