@@ -2150,6 +2150,25 @@ body {
     width: 80%;
   }
 }
+/* Styles for screens less than 768px (mobile) */
+@media (max-width: 768px) {
+
+  /* Increase font size for better readability */
+  body {
+    font-size: 1.2rem;
+  }
+
+  /* Stack elements vertically instead of horizontally */
+  .content-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Adjust image width */
+  img {
+    width: 100%;
+  }
+}
 
 /* Styles for screens less than 480px */
 @media (max-width: 480px) {
