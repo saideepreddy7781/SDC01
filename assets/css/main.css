@@ -2180,3 +2180,29 @@ body {
   width: 80vw; /* Adjusts width based on viewport width */
   padding: 1rem;  /* Padding relative to font size */
 }
+/* Baseline styles (apply to all screens) */
+body {
+  font-size: 16px; /* Base font size */
+}
+
+.container {
+  width: 80rem; /* Adjusts width based on font size (rem) */
+  margin: 0 auto; /* Centers content horizontally */
+}
+
+/* Styles for mobile screens (using media query) */
+@media (max-width: 768px) {
+  .container {
+    width: 100%; /* Set container to 100% width on mobile */
+  }
+
+  /* Additional mobile adjustments (optional) */
+  .content-section {
+    display: flex;
+    flex-direction: column; /* Stack content vertically */
+  }
+
+  img {
+    width: 100%; /* Scale image to fit container width */
+  }
+}
