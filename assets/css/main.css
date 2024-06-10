@@ -2176,3 +2176,7 @@ body {
     width: 100%;
   }
 }
+.container {
+  width: 80vw; /* Adjusts width based on viewport width */
+  padding: 1rem;  /* Padding relative to font size */
+}
