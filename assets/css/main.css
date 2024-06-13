@@ -2318,4 +2318,22 @@ button:active {
 .pushable:focus:not(:focus-visible) {
   outline: none;
 }
+/* Base styles */
+.events-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+}
+
+.event {
+  flex: 1; /* Allow events to grow and fill the space */
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  .events-container {
+    flex-direction: column; /* Stack events vertically */
+    align-items: center; /* Center events horizontally */
+  }
+}
 
