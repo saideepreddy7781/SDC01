@@ -209,38 +209,76 @@
 <body>
 
 <!-- Events Section -->
-<section id="Events" class="Events-section">
-  <div class="container" data-aos="fade-up" data-aos-delay="100">
-    <div class="row gy-4">
-      <div class="col-lg-12 content">
-        <h3>SDC Events</h3>
-        <p class="fst-italic">
-          Explore our upcoming events and join us in shaping the future of technology.
-        </p>
+ <section id="Events" class="Events section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>SDC Events</h2>
+        <p>Check our Events</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-activity"></i>
+              </div>
+              <a href="" class="stretched-link">
+                <h3>HASH IT OUT</h3>
+              </a>
+              <p>hackathon </p>
+            </div>
+          </div><!-- e Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-broadcast"></i>
+              </div>
+              <a href="" class="stretched-link">
+                <h3>AI Workshop</h3>
+              </a>
+              <p>Workshop</p>
+            </div>
+          </div><!-- End Service Item -->
+  <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item position-relative loading-chapter">
+              <div class="icon">
+                <i class="bi bi-hourglass-split"></i>
+              </div>
+              <h3>Loading...</h3>
+              <p class="blur-text">New Event Coming Soon</p>
+            </div>
+          </div>
+      
+        </div>
       </div>
-    <!-- Flex Container for Events -->
-    <div class="events-container" style="display: flex; justify-content: space-around; flex-wrap: nowrap;">
-      <!-- Event 1 -->
-      <div class="event">
-        <h4>Code Marathon</h4>
-        <p>Join our 24-hour coding challenge and compete with the best.</p>
+      
+      <style>
+        .loading-chapter {
+          filter: blur(5px);
+          transition: filter 0.3s ease-in-out;
+        }
+        .loading-chapter:hover {
+          filter: blur(0);
+        }
+        .blur-text {
+          color: #ccc;
+        }
+      </style>
+         
+
+        </div>
+
       </div>
 
-      <!-- Event 2 -->
-      <div class="event">
-        <h4>AI Workshop</h4>
-        <p>Learn the fundamentals of AI and machine learning from industry experts.</p>
-      </div>
-
-      <!-- Event 3 -->
-      <div class="event">
-        <h4>Startup Pitch Night</h4>
-        <p>Present your startup idea to investors and get valuable feedback.</p>
-      </div>
-     
-    </div>
-  </div>
-</section>
+    </section><!-- /Chapters Section -->
+</style>
+</head>
+<body>
     <!-- Call To Action Section -->
     <section id="call-to-action" class="call-to-action section">
 
